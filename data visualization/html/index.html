@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/echarts.js"></script>
+    <script type="text/javascript" src="../js/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="../js/echarts-wordcloud.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/timing.js"></script>
+    <script type="text/javascript" src="../js/schedule.js"></script>
+    <script type="text/javascript" src="../js/courses.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Learning Analytics Tool</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="mytab">
+                    <li class="nav-tab active" onclick="getTiming()" id="timing"><a href="#timing">Timing </a></li>
+                    <li class="nav-tab" onclick="getSchedule()" id="schedule"><a href="#schedule">Schedule</a></li>
+                    <li class="nav-tab" onclick="getCourses()" id="courses"><a href="#courses">Courses</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Student ID">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="content">
+        <div id="tab-plane" style="width: 100%;height:500px;"></div>
+    </div>
+    <!-- <div id="main" style="width: 600px;height:400px;"></div> -->
+</body>
+<footer>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</footer>
+
+</html>

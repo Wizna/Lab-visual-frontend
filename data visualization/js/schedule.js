@@ -6,8 +6,9 @@ function getSchedule() {
 
     option = {
     title: {
-        text: '一天用电量分布',
-        subtext: '纯属虚构'
+        text: 'Motivation through day',
+        subtext: '023452',
+        x: 'center'
     },
     tooltip: {
         trigger: 'axis',
@@ -29,7 +30,7 @@ function getSchedule() {
     yAxis: {
         type: 'value',
         axisLabel: {
-            formatter: '{value} W'
+            formatter: '{value} times'
         },
         axisPointer: {
             snap: true
@@ -60,18 +61,18 @@ function getSchedule() {
     },
     series: [
         {
-            name:'用电量',
+            name:'Motivation',
             type:'line',
             smooth: true,
-            data: [300, 280, 250, 260, 270, 300, 550, 500, 400, 390, 380, 390, 400, 500, 600, 750, 800, 700, 600, 400],
+            data: [30, 28, 25, 26, 27, 30, 55, 50, 40, 39, 38, 39, 40, 50, 60, 75, 80, 70, 60, 40],
             markArea: {
                 data: [ [{
-                    name: '早高峰',
+                    name: 'High peek',
                     xAxis: '07:30'
                 }, {
                     xAxis: '10:00'
                 }], [{
-                    name: '晚高峰',
+                    name: 'High peek',
                     xAxis: '17:30'
                 }, {
                     xAxis: '21:15'

@@ -17,7 +17,7 @@ function getTiming() {
         legend: {
             x: 'center',
             y: 'bottom',
-            data: ['rose1', 'rose2', 'rose3', 'rose4', 'rose5', 'rose6', 'rose7', 'rose8']
+            data: ['time1', 'time2', 'time3', 'time4', 'time5', 'time6', 'time7', 'time8']
         },
         toolbox: {
             show: true,
@@ -34,7 +34,7 @@ function getTiming() {
         },
         calculable: true,
         series: [{
-            name: '半径模式',
+            name: 'radius mode',
             type: 'pie',
             radius: [20, 110],
             center: ['25%', '50%'],
@@ -56,30 +56,30 @@ function getTiming() {
                 }
             },
             data: [
-                { value: 10, name: 'rose1' },
-                { value: 5, name: 'rose2' },
-                { value: 15, name: 'rose3' },
-                { value: 25, name: 'rose4' },
-                { value: 20, name: 'rose5' },
-                { value: 35, name: 'rose6' },
-                { value: 30, name: 'rose7' },
-                { value: 40, name: 'rose8' }
+                { value: 10, name: 'time1' },
+                { value: 5, name: 'time2' },
+                { value: 15, name: 'time3' },
+                { value: 25, name: 'time4' },
+                { value: 20, name: 'time5' },
+                { value: 35, name: 'time6' },
+                { value: 30, name: 'time7' },
+                { value: 40, name: 'time8' }
             ]
         }, {
-            name: '面积模式',
+            name: 'area mode',
             type: 'pie',
             radius: [30, 110],
             center: ['75%', '50%'],
             roseType: 'area',
             data: [
-                { value: 10, name: 'rose1' },
-                { value: 5, name: 'rose2' },
-                { value: 15, name: 'rose3' },
-                { value: 25, name: 'rose4' },
-                { value: 20, name: 'rose5' },
-                { value: 35, name: 'rose6' },
-                { value: 30, name: 'rose7' },
-                { value: 40, name: 'rose8' }
+                { value: 10, name: 'time1' },
+                { value: 5, name: 'time2' },
+                { value: 15, name: 'time3' },
+                { value: 25, name: 'time4' },
+                { value: 20, name: 'time5' },
+                { value: 35, name: 'time6' },
+                { value: 30, name: 'time7' },
+                { value: 40, name: 'time8' }
             ]
         }]
     };

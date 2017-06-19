@@ -9,6 +9,7 @@ function getCourses() {
             text: "Word Cloud for Courses",
 
             subtext: '234523',
+            x: 'center'
 
         },
         tooltip: {},
@@ -51,28 +52,28 @@ function getCourses() {
                 name: 'Introduction to languages',
                 value: 4386
             }, {
-                name: 'Jurassic World',
+                name: 'Data Mining',
                 value: 4055
             }, {
-                name: 'Charter Communications',
+                name: 'Software architecture',
                 value: 2467
             }, {
-                name: 'Chick Fil A',
+                name: 'Software project management',
                 value: 2244
             }, {
-                name: 'Planet Fitness',
+                name: 'Artificial intelligence',
                 value: 1898
             }, {
-                name: 'Pitch Perfect',
+                name: 'Natural language processing',
                 value: 1484
             }, {
-                name: 'Express',
+                name: 'Logic programming',
                 value: 1112
             }, {
-                name: 'Home',
+                name: 'Functional programming',
                 value: 965
             }, {
-                name: 'Johnny Depp',
+                name: 'Cryptography',
                 value: 847
             }, {
                 name: 'Lena Dunham',
@@ -96,7 +97,7 @@ function getCourses() {
                 name: 'Serena Williams',
                 value: 282
             }, {
-                name: 'NCAA baseball tournament',
+                name: 'Android development',
                 value: 273
             }, {
                 name: 'Point Break',

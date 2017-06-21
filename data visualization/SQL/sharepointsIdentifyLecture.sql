@@ -1,0 +1,1 @@
+SELECT * FROM ldavlab.sharepoint where `User Id` = '9336a370f1605a595a18b21784c2cd95477850448eeb15fa16fa23d454ee1a50';

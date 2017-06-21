@@ -1,4 +1,11 @@
+function bilibili(data) {
+    alert(data);
+}
+
 function getTiming() {
+    // $.get("http://127.0.0.1:8000/polls/", function(data, status) {
+    //     alert("Data: " + data + "\nStatus: " + status);
+    // });
 
     $(".nav-tab").removeClass("active");
     $("#timing").addClass("active");

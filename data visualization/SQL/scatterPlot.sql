@@ -4,5 +4,5 @@ SELECT
 FROM
     ldavlab_ruiming.etesttries_view
 where
-     etestnr = '2' and Status = 'Beendet' and SpentTime < 36000
+     etestnr = '2' and Status = 'Beendet' and SpentTime < 5000
 group by Nachname

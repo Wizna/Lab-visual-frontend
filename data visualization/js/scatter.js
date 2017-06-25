@@ -109,28 +109,30 @@ function displayTheGraph(data){
 	            name:'class1',
 	            type:'scatter',
 	            data: dataArray[0],
-	            markArea: {
-	                silent: true,
-	                itemStyle: {
-	                    normal: {
-	                        color: 'transparent',
-	                        borderWidth: 1,
-	                        borderType: 'dashed'
-	                    }
-	                },
-	                data: [[{
-	                    name: '分布区间',
-	                    xAxis: 'min',
-	                    yAxis: 'min'
-	                }, {
-	                    xAxis: 'max',
-	                    yAxis: 'max'
-	                }]]
-	            },
+	            // markArea: {
+	            //     silent: true,
+	            //     itemStyle: {
+	            //         normal: {
+	            //             color: 'transparent',
+	            //             borderWidth: 1,
+	            //             borderType: 'dashed'
+	            //         }
+	            //     },
+	            //     data: [[{
+	            //         // name: '分布区间',
+	            //         xAxis: 'min',
+	            //         yAxis: 'min'
+	            //     }, {
+	            //         xAxis: 'max',
+	            //         yAxis: 'max'
+	            //     }]]
+	            // },
 	            markPoint : {
 	                data : [
-	                    {type : 'max', name: '最大值'},
-	                    {type : 'min', name: '最小值'}
+	                    {type : 'average', name: '平均值'}
+
+	                    // {type : 'max', name: '最大值'},
+	                    // {type : 'min', name: '最小值'}
 	                ]
 	            }
 	        },
@@ -138,28 +140,30 @@ function displayTheGraph(data){
 	            name:'class2',
 	            type:'scatter',
 	            data: dataArray[1],
-	            markArea: {
-	                silent: true,
-	                itemStyle: {
-	                    normal: {
-	                        color: 'transparent',
-	                        borderWidth: 1,
-	                        borderType: 'dashed'
-	                    }
-	                },
-	                data: [[{
-	                    name: '分布区间',
-	                    xAxis: 'min',
-	                    yAxis: 'min'
-	                }, {
-	                    xAxis: 'max',
-	                    yAxis: 'max'
-	                }]]
-	            },
+	            // markArea: {
+	            //     silent: true,
+	            //     itemStyle: {
+	            //         normal: {
+	            //             color: 'transparent',
+	            //             borderWidth: 1,
+	            //             borderType: 'dashed'
+	            //         }
+	            //     },
+	            //     data: [[{
+	            //         // name: '分布区间',
+	            //         xAxis: 'min',
+	            //         yAxis: 'min'
+	            //     }, {
+	            //         xAxis: 'max',
+	            //         yAxis: 'max'
+	            //     }]]
+	            // },
 	            markPoint : {
 	                data : [
-	                    {type : 'max', name: '最大值'},
-	                    {type : 'min', name: '最小值'}
+	                    {type : 'average', name: '平均值'}
+
+	                    // {type : 'max', name: '最大值'},
+	                    // {type : 'min', name: '最小值'}
 	                ]
 	            }
 	        },
@@ -167,28 +171,30 @@ function displayTheGraph(data){
 	            name:'class3',
 	            type:'scatter',
 	            data: dataArray[2],
-	            markArea: {
-	                silent: true,
-	                itemStyle: {
-	                    normal: {
-	                        color: 'transparent',
-	                        borderWidth: 1,
-	                        borderType: 'dashed'
-	                    }
-	                },
-	                data: [[{
-	                    name: '分布区间',
-	                    xAxis: 'min',
-	                    yAxis: 'min'
-	                }, {
-	                    xAxis: 'max',
-	                    yAxis: 'max'
-	                }]]
-	            },
+	            // markArea: {
+	            //     silent: true,
+	            //     itemStyle: {
+	            //         normal: {
+	            //             color: 'transparent',
+	            //             borderWidth: 1,
+	            //             borderType: 'dashed'
+	            //         }
+	            //     },
+	            //     data: [[{
+	            //         // name: '分布区间',
+	            //         xAxis: 'min',
+	            //         yAxis: 'min'
+	            //     }, {
+	            //         xAxis: 'max',
+	            //         yAxis: 'max'
+	            //     }]]
+	            // },
 	            markPoint : {
 	                data : [
-	                    {type : 'max', name: '最大值'},
-	                    {type : 'min', name: '最小值'}
+	                    {type : 'average', name: '平均值'}
+
+	                    // {type : 'max', name: '最大值'},
+	                    // {type : 'min', name: '最小值'}
 	                ]
 	            }
 	        },
@@ -196,32 +202,36 @@ function displayTheGraph(data){
 	            name:'class4',
 	            type:'scatter',
 	            data: dataArray[3],
-	            markArea: {
-	                silent: true,
-	                itemStyle: {
-	                    normal: {
-	                        color: 'transparent',
-	                        borderWidth: 1,
-	                        borderType: 'dashed'
-	                    }
-	                },
-	                data: [[{
-	                    name: '分布区间',
-	                    xAxis: 'min',
-	                    yAxis: 'min'
-	                }, {
-	                    xAxis: 'max',
-	                    yAxis: 'max'
-	                }]]
-	            },
+	            // markArea: {
+	            //     silent: true,
+	            //     itemStyle: {
+	            //         normal: {
+	            //             color: 'transparent',
+	            //             borderWidth: 1,
+	            //             borderType: 'dashed'
+	            //         }
+	            //     },
+	            //     data: [[{
+	            //         // name: '分布区间',
+	            //         xAxis: 'min',
+	            //         yAxis: 'min'
+	            //     }, {
+	            //         xAxis: 'max',
+	            //         yAxis: 'max'
+	            //     }]]
+	            // },
 	            markPoint : {
 	                data : [
-	                    {type : 'max', name: '最大值'},
-	                    {type : 'min', name: '最小值'}
+	                    // {type : 'max', name: '最大值'},
+	                    {type : 'average', name: '平均值'}
+
+	                    // {type : 'min', name: '最小值'}
 	                ]
 	            }
 	        }
 	    ]
+	    ,animationEasing: 'elasticOut'
+    
 	};
 
 

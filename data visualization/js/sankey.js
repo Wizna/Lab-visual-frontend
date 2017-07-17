@@ -1,17 +1,24 @@
 function getSankey() {
 
     $(".nav-tab").removeClass("active");
-    $("#timing").addClass("active");
+    $("#sankey").addClass("active");
+    $( "#adddiv" ).remove();
+    $("#tab-plane").css("width", '100%');
+
     var myChart = echarts.init(document.getElementById('tab-plane'));
     myChart.showLoading();
 
-    $.get('https://raw.githubusercontent.com/ecomfe/echarts/c7b62850ef9efa928415a91ae77b42928b823be6/test/data/energy.json', function(pdata) {
-        myChart.hideLoading();
+    $.get('https://raw.githubusercontent.com/Wizna/play/master/data.json', function(pdata) {
 
         data = JSON.parse(pdata);
+        myChart.hideLoading();
+
+        // pp = data.links
+        // alert(pp[0].source)
         myChart.setOption(option = {
             title: {
-                text: 'Sankey Diagram'
+                text: 'Sankey Diagram',
+                x: 'center'
             },
             tooltip: {
                 trigger: 'item',

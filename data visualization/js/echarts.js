@@ -41024,7 +41024,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        /**
 	         * @type {number}
 	         */
+
 	        this.dataIndex = dataIndex == null ? -1 : dataIndex;
+	        // alert(this.dataIndex)
 	    }
 
 	    Node.prototype = {

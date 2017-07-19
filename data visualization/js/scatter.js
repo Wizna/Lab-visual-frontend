@@ -15,7 +15,7 @@ function getScatter() {
 
     $(".content").prepend('<div id = "scatter-select-topic-div" class="dropdown btn-group"><button style = "width : 200px;" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Einführung&nbsp&nbsp<span class="caret"></span></button> <ul id = "listOfTopics" class="dropdown-menu scatter-menu1" aria-labelledby="dropdownMenu1">'+zulatopics+'</ul></div>');
     $(".content").prepend('<div id = "scatter-select-type-div" class="dropdown btn-group"><button style = "width : 140px;"class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Zulassungstest&nbsp&nbsp<span class="caret"></span></button> <ul class="dropdown-menu scatter-menu2" aria-labelledby="dropdownMenu2"><li><a href="#">Head First Test</a></li><li><a href="#">Selbsttests</a></li><li><a href="#">Zulassungstest</a></li></ul></div>');
-    $(".content").prepend('<div id = "scatter-select-semester-div" class="dropdown btn-group"><button style = "width : 100px;"class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">15ws&nbsp&nbsp<span class="caret"></span></button> <ul class="dropdown-menu scatter-menu3" aria-labelledby="dropdownMenu3"><li><a href="#">16ws</a></li><li><a href="#">15ws</a></li></ul></div>');
+    $(".content").prepend('<div id = "scatter-select-semester-div" class="dropdown btn-group"><button style = "width : 100px;"class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">15ws&nbsp&nbsp<span class="caret"></span></button> <ul class="dropdown-menu scatter-menu3" aria-labelledby="dropdownMenu3"><li><a href="#">15ws</a></li><li><a href="#">16ws</a></li></ul></div>');
 
     bindSelectionOnClick();
     $('.scatter-menu2 li > a').click(function(e){
@@ -110,7 +110,7 @@ function displayTheGraph(data) {
     option = {
         title: {
             text: 'Grade and Time',
-            subtext: 'etest 2 result'
+            // subtext: 'etest results'
         },
         grid: {
             left: '3%',
@@ -123,7 +123,7 @@ function displayTheGraph(data) {
             showDelay: 0,
             formatter: function(params) {
                 if (params.value.length > 1) {
-                    return params.seriesName + ' :<br/>' + params.value[0] + 'time ' + params.value[1] + 'points ';
+                    return params.seriesName + ' :<br/>' + params.value[0] + 'minutes, ' + params.value[1] + 'points ';
                 } else {
                     return params.seriesName + ' :<br/>' + params.name + ' : ' + params.value + 'points ';
                 }
@@ -154,7 +154,7 @@ function displayTheGraph(data) {
             type: 'value',
             scale: true,
             axisLabel: {
-                formatter: '{value} time'
+                formatter: '{value} minutes'
             },
             splitLine: {
                 show: false

@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32ed013-be37-4ad3-9a13-6bb0f42b29fe" name="Default" comment="" />
+    <list default="true" id="c32ed013-be37-4ad3-9a13-6bb0f42b29fe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/coursetable_jan.p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/coursetable_march.p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/lv2name.p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LabVisual.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabVisual/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabVisual/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabVisual/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabVisual/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sankey/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,26 +47,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/polls/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-                <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-                <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-                <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-                <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-                <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +60,12 @@
     <findStrings>
       <find>listforfp</find>
       <find>checkDuplicate</find>
+      <find>pattern</find>
+      <find>prin</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,8 +73,8 @@
         <option value="$PROJECT_DIR$/polls/urls.py" />
         <option value="$PROJECT_DIR$/LabVisual/settings.py" />
         <option value="$PROJECT_DIR$/LabVisual/urls.py" />
-        <option value="$PROJECT_DIR$/sankey/views.py" />
         <option value="$PROJECT_DIR$/polls/views.py" />
+        <option value="$PROJECT_DIR$/sankey/views.py" />
       </list>
     </option>
   </component>
@@ -86,13 +105,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LabVisual" />
+              <option name="myItemId" value="LabVisualServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -102,7 +121,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LabVisual" />
+              <option name="myItemId" value="LabVisualServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -116,7 +135,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LabVisual" />
+              <option name="myItemId" value="LabVisualServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -128,6 +147,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabVisualServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabVisual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabVisual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -135,6 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -370,13 +404,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28971255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27659574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27659574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -405,13 +439,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="75" lean-forward="false" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="75" lean-forward="false" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -419,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,9 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,15 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,15 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,15 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,15 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,15 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,15 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,15 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,15 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,15 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabVisual/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -776,19 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sankey/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,22 +758,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabVisual/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="29" column="213" lean-forward="false" selection-start-line="29" selection-start-column="213" selection-end-line="29" selection-end-column="213" />
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1500483908572" expanded="true" signature="794:923" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:929" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:944" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:945" ph="SELECT Bewer... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1000" ph="SELECT IF(Ve... etesttries_view" />
-            <marker date="1500483908572" expanded="true" signature="794:1018" ph="SELECT Bewer... etesttries_view" />
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1500685446512" expanded="true" signature="611:839" ph="SELECT Bewer... etesttries_view" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

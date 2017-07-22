@@ -1,12 +1,8 @@
+![alt text](https://github.com/Wizna/play/blob/master/liquid-ruiming.png?raw=true)
+
+
 # Lab : Data Analysis and visualizations
 
-
-
-<p align="center">
-
-<img src="https://github.com/Wizna/play/blob/master/liquid-ruiming.png">
-
-</p>
 
 ### Brief
 
